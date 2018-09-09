@@ -1,0 +1,59 @@
+
+body { 
+    background-image: url(http://10awesome.com/wp-content/uploads/2013/03/front20.jpg);
+    font-family: 'Nothing You Could Do', cursive;
+}
+#header-image {
+    width:1084px; 
+    height: 200px;
+    margin: 0px 0px 100px 0px;
+}
+
+.gameplay1 { 
+    color: rgba(245, 19, 19, 0.616);
+    text-align: center;
+    line-height: 2.1;
+    border-style: dashed;
+    border-color: rgba(255, 255, 255, 0.116);
+    border-radius: 25px; 
+    background-color: bisque;  
+}
+#animal-image{
+    width: 100%;
+    border-radius: 10%;      
+}
+
+#animal-image:hover{
+    opacity: 0.75 ;   
+    transform: scale(1.1);
+    -webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+.gameplay > h4:hover{
+   
+    transform: scale(1.1);
+    -webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	transition: all 1s ease;
+}
+.gameplay > h1{
+    line-height: 1.5 ;
+    text-decoration: underline ; 
+}
+.gameplay >h1:hover {
+    transform: scale(1);
+    opacity: .1;
+    -webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+    transition: all 1s ease;
+    font-weight: 700%;
+    text-transform: capitalize ;
+}
